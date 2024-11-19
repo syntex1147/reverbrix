@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Reverbrix Headphones - Product Landing Page</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            text-align: center;
+            padding: 50px 0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 48px;
+            letter-spacing: -2px;
+        }
+        header p {
+            margin-top: 10px;
+            font-size: 18px;
+            color: #777;
+        }
+        nav {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        .section {
+            display: flex;
+            align-items: flex-start;
+            padding: 50px;
+        }
+        .section:nth-child(even) {
+            flex-direction: row-reverse;
+            background-color: #fff;
+        }
+        .section img {
+            width: 50%;
+            max-width: 500px;
+            height: auto;
+        }
+        .section .content {
+            width: 50%;
+            padding: 0 20px;
+        }
+        .section .content h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .section .content p {
+            font-size: 16px;
+            line-height: 1.6;
+            text-align: justify;
+        }
+        @media (max-width: 768px) {
+            .section {
+                flex-direction: column;
+            }
+            .section img, .section .content {
+                width: 100%;
+            }
+            .section img {
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Reverbrix</h1>
+        <p>Experience Sound Like Never Before</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+    </nav>
+
+    <!-- Main Product Section -->
+    <div class="section">
+        <img src="headphones.jpg" alt="Reverbrix Headphones">
+        <div class="content">
+            <h2>Reverbrix Headphones</h2>
+            <p>The Reverbrix Headphones combine cutting-edge noise cancellation technology to create an unparalleled auditory experience tailored to your needs.</p>
+        </div>
+    </div>
+
+    <!-- Key Metrics Section -->
+    <div class="section">
+        <img src="headphones.jpg" alt="Key Metrics">
+        <div class="content">
+            <h2>Key Metrics</h2>
+            <p><strong>Describe the innovation, its design, and its technology</strong></p>
+            <p>The Reverbrix Headphones combine existing noise cancellation technology and expand on it to reach a specific clinical market. In order to serve as a solution to Misophonia, the Reverbrix solution’s underlying principle is being able to identify and filter out the specific noises which are triggering to the user while allowing or even enhancing the wanted noise. Similar to active noise canceling, speakers on the outside of the headphones will detect the sound waves surrounding them. This allows the inside speaker to alter its output in order to create destructively interfering waves, reducing the apparent outside noise to the user. The Reverbrix Headphones will enhance this principle by implementing signal analysis on the incoming datastream to not cancel out everything, but to beneficially modify the noise received by the user's ear tailored to particular use cases.</p>
+            <p>The Reverbrix Headphones will culminate existing technology and expand on it to create a solution which promotes comfort and serves as a preventative measure to auditory health conditions. For example, users experiencing misophonia would benefit from being able to tune out a certain frequency range of noises which are not used in everyday life but which spawn negative neurological effects. Another use case would be conversing in loud environments, where utilizing these functions would reduce background noise and improve speech clarity. This can also be done by using the AI algorithms found in video conferencing apps, which in real time filter out background noise.</p>
+            <p>The Reverbrix headphones will take a similar form to other active noise canceling headphones, with a special emphasis being placed on long-term comfort. However, where it will especially stand out is in its novel and innovative applications of software. An app will accompany the headphones which will allow the user to customize their use case for the headphones: which frequencies they want to amplify, allow, or attenuate. Machine learning metrics will be used to give further options on modifying the incoming data stream, such as voices.</p>
+        </div>
+    </div>
+
+    <!-- Validation/Progress Section -->
+    <div class="section">
+        <img src="headphones.jpg" alt="Validation and Progress">
+        <div class="content">
+            <h2>Validation & Progress</h2>
+            <p><strong>How have you validated the innovation, technology, or processes?</strong></p>
+            <p>Reverbrix’s technology is an evolution—a convergence of multiple technologies across separate industries and sciences to make a revolutionary product potentially used by millions across the globe. These technologies—active noise cancellation, level-dependent filtering, frequency isolation—are proven to be capable and are currently utilized by high-demand consumer products.</p>
+            <p>We utilize Fast Fourier Transforms (FFTs) to adaptively decompose sound signals in real time, which we feed into our state-of-the-art deep learning models to dynamically cancel sound and provide on-device post-processing.</p>
+            <p><strong>What progress has the team made in developing the innovation?</strong></p>
+            <p>Our team has successfully integrated these advanced technologies into a cohesive system, developing prototypes that showcase the effectiveness of our approach. Through rigorous testing and iterative design, we are continually refining the Reverbrix Headphones to ensure they meet the highest standards of quality and performance.</p>
+        </div>
+    </div>
+
+</body>
+</html>
